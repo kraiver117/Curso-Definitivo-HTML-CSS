@@ -1,0 +1,14 @@
+/* em toma el tamaño de fuente del padre directo */
+/*Ejemplo: padre directo tiene 16px y su hijo 1.5em entonces el tamano de fuente del hijo
+seria de 24px ya que 16*1.5 = 24px */
+.text-container {
+    font-size: 1.5em;
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
+
+/* body {
+    font-size: 20px;
+} */

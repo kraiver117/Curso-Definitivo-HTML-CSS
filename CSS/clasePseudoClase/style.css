@@ -1,0 +1,30 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 12px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Pseudo clase define un estado especial de un elemento */
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: white;
+}
+
+/* Pseudo elemento define el estilo de una parte especifica del elemento */
+.main-nav__item a::after {
+    content: " | ";
+}

@@ -1,0 +1,17 @@
+/*Box sizing: border box hacer que se calcule el width del elemento
+restando el padding y border, margin si genera excedente */
+/*Box sizing: content box hace que se tome el width total del elemento y
+le suma el padding y margin, pudiendo ocasionar scroll */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

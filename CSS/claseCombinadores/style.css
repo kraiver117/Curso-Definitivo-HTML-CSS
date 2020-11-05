@@ -1,0 +1,24 @@
+/*Aplica estilos al hermano o adyacente que este abajo de un elemento*/
+/*Adjacent Siblings */
+/* h2 + p {
+    color: red;
+} */
+
+
+/* Aplica en el mismo nivel de bloque o indentacion estilos a un elemento*/
+/* General Sibling */
+/* h2 ~ p {
+    color: red;
+} */
+
+/*Aplica estilos a un hijo directo de un elemento padre*/
+/*Child*/
+/* div > p {
+    color: red;
+} */
+
+/*Aplica estilos a todos los elementos hijos que esten en un elemento padre*/
+/*Descendant*/
+div p {
+    color: red;
+}

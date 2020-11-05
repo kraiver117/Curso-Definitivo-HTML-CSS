@@ -1,0 +1,31 @@
+/*rem siempre va a tomar la medida del elemento padre o root html que son 16px*/
+/*1rem = 16px*/
+
+/*Al aplicar este font-size en el html nos dara un tamano de rootElement de 10px
+por lo que podremos jugar con los rem como si fuera pixeles, de tal manera que 
+1rem = 10px 1.6rem = 16.px y asi sucesivamente */
+
+
+/*Estas lineas de codigo siempre van para formatear el CSS que nos da el navegador 
+ y ademas la parte de html para dejar el tamano estandar de parrafos en 10px y poder
+ usar REM con el equivalente de 1rem = 10px*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*-------------------------------------------------------------*/
+
+
+
+p {
+    font-size: 1.7rem;
+}
+
+main div {
+    font-size: 1.7rem;
+}
