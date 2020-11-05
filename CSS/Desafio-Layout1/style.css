@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10vh;
+    background-color: blanchedalmond;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+}
+
+footer {
+    height: 10vh;
+    background-color: yellowgreen;
+}
+
+aside {
+    background-color: teal;
+}
+
+.main-container {
+    width: 20vw;
+    background-color: thistle;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-container__item {
+    padding: 65px;
+    border-radius: 10px;
+    background-color: violet;
+}
