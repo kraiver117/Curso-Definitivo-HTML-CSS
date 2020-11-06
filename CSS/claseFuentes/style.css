@@ -1,0 +1,6 @@
+/*Solo es recomendable cargar una fuente por proyecto por cuestiones de 
+perfomance*/
+/*Es buena practica importar las fuentes en el head de nuestro HTML*/
+body{
+    font-family: 'Roboto';
+}
