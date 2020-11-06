@@ -1,0 +1,50 @@
+/*Mobile first es importante ya que mayormente las web apps son utilizadas por
+telefonos o tables, se recomienda primero disenar para celular, luego tablet y 
+al final desktop*/
+
+/*La mejor practica para hacer responsive design es hacer uso de media queries importadas
+como un link en nuestro head, haciendo referencia al archivo donde tengamos ese CSS
+y agregando como media el min-width que se desea usar. Por ejemplo:*/
+
+/*<link href="./tablet.css" rel="stylesheet" media="screen and (min-width: 768px)"*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5 {
+    width: 100%;
+    min-width:150px;
+    height: 150px;
+}
+
+.c1 {
+    background-color: violet;
+}
+
+.c2 {
+    background-color: red;
+}
+
+.c3 {
+    background-color: blue;
+}
+
+.c4 {
+    background-color: green;
+}
+
+.c5 {
+    background-color: yellow;
+}
