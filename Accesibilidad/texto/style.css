@@ -1,0 +1,15 @@
+/*Es buena practica usar REM para el tema de accesibilidad ya que le da a personas
+con problemas visuales poder agrandar el tamano de fuente, cosa que usando pixeles
+no se puede lograr ya que es una medida absoluta*/
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
